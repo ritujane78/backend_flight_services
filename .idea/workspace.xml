@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="775064a5-e935-40c3-8a70-51e14055b733" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/flightServices/src/main/java/com/jane/flightServices/entities/AbstractEntity.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ritujane78"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:ritujane78/backend_flight_services.git",
+    "accountId": "7043973b-b685-4893-9118-a2d048c6c6ca"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="7.870936012858532E-76" />
+      <entry key="MS500" value="9.532466250958394E-16" />
+      <entry key="S2" value="1.7571195835147698E-4" />
+      <entry key="S5" value="0.03147172354416115" />
+      <entry key="S10" value="0.17740271571811175" />
+      <entry key="S30" value="0.5618962819376271" />
+      <entry key="S60" value="0.7564815203773784" />
+      <entry key="M2" value="1.5005518261288557" />
+      <entry key="M5" value="11.954486273753579" />
+      <entry key="M10" value="30.145085348435565" />
+      <entry key="M15" value="41.52124667987208" />
+      <entry key="M30" value="57.4858745407104" />
+      <entry key="H1" value="67.77052060779292" />
+      <entry key="H2" value="73.61955412309167" />
+      <entry key="H4" value="76.74027917777613" />
+      <entry key="D1" value="79.4467876228706" />
+      <entry key="W1" value="79.9207229371014" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000062141995474" />
+      <entry key="S2" value="1.049930608675493" />
+      <entry key="S5" value="1.309151222003711" />
+      <entry key="S10" value="1.687443521498138" />
+      <entry key="S30" value="2.879236337030566" />
+      <entry key="S60" value="3.8680930349644354" />
+      <entry key="M2" value="5.501940083230651" />
+      <entry key="M5" value="9.774185536403557" />
+      <entry key="M10" value="14.574608451473356" />
+      <entry key="M15" value="17.499364953926236" />
+      <entry key="M30" value="21.720898615882128" />
+      <entry key="H1" value="24.539217194096807" />
+      <entry key="H2" value="26.179396984479745" />
+      <entry key="H4" value="27.065764093909124" />
+      <entry key="D1" value="27.840845149122476" />
+      <entry key="W1" value="27.977177452993267" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="5.416469713003598E-9" />
+      <entry key="MS500" value="0.02221996224116261" />
+      <entry key="S2" value="0.39334736907119316" />
+      <entry key="S5" value="0.8477085378060548" />
+      <entry key="S10" value="1.4630961735633217" />
+      <entry key="S30" value="3.201953923907587" />
+      <entry key="S60" value="4.473289376861811" />
+      <entry key="M2" value="6.901102637601104" />
+      <entry key="M5" value="21.6539080602214" />
+      <entry key="M10" value="44.661442678736556" />
+      <entry key="M15" value="58.97328006787621" />
+      <entry key="M30" value="79.17700463508858" />
+      <entry key="H1" value="92.29282661231439" />
+      <entry key="H2" value="99.78990739638839" />
+      <entry key="H4" value="103.80136274235252" />
+      <entry key="D1" value="107.2868295800493" />
+      <entry key="W1" value="107.8977850681323" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3JAnQnf7cVFx2DCiZrcWyG3SIMp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/rituj/Documents/Coding/flightServices",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="FlightServicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="flightServices" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jane.flightServices.FlightServicesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="775064a5-e935-40c3-8a70-51e14055b733" name="Changes" comment="" />
+      <created>1789112727036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789112727036</updated>
+      <workItem from="1789112728218" duration="1373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
