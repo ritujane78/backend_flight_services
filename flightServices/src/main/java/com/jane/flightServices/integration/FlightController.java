@@ -36,7 +36,7 @@ public class FlightController {
 
   @PostMapping("/flights")
   @Transactional
-  public Reservation createFlight(CreateReservationRequest request) {
+  public Reservation createFlight(@RequestBody CreateReservationRequest request) {
     Flight flight = flightRepository.findById(request.getFlightId()).orElseThrow(() -> new RuntimeException("Flight not found"));
     Passenger passenger = new Passenger();
     passenger.setFirstName(request.getPassengerFirstName());
@@ -61,7 +61,7 @@ public class FlightController {
   }
 
   @PutMapping("/reservations/{id}")
-  public Reservation updateReservation(@PathVariable Integer id, @RequestBody Reservation reservation) {
+  public Reservation updateReservation(@RequestBody @PathVariable Integer id, @RequestBody Reservation reservation) {
     Reservation existingReservation = ReservationRepository.findById(id).orElseThrow(() -> new RuntimeException("Reservation not found"));
     existingReservation.setCheckedIn(reservation.isCheckedIn());
     existingReservation.setNumberOfBags(reservation.getNumberOfBags());
