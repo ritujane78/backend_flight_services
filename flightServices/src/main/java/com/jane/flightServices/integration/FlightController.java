@@ -8,10 +8,7 @@ import com.jane.flightServices.repository.FlightRepository;
 import com.jane.flightServices.repository.PassengerRepository;
 import com.jane.flightServices.repository.ReservationRepository;
 import jakarta.transaction.Transactional;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -53,5 +50,18 @@ public class FlightController {
 
 
     return savedReservation;
+  }
+
+  @GetMapping("/reservations/{id}")
+  public Reservation getReservation(@PathVariable Integer id) {
+    return ReservationRepository.findById(id).orElseThrow(() -> new RuntimeException("Reservation not found"));
+  }
+
+  @PutMapping("/reservations/{id}")
+  public Reservation updateReservation(@PathVariable Integer id, @RequestBody Reservation reservation) {
+    Reservation existingReservation = ReservationRepository.findById(id).orElseThrow(() -> new RuntimeException("Reservation not found"));
+    existingReservation.setCheckedIn(reservation.isCheckedIn());
+    existingReservation.setNumberOfBags(reservation.getNumberOfBags());
+    return ReservationRepository.save(existingReservation);
   }
 }
