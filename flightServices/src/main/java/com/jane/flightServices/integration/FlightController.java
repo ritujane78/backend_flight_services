@@ -8,12 +8,14 @@ import com.jane.flightServices.repository.FlightRepository;
 import com.jane.flightServices.repository.PassengerRepository;
 import com.jane.flightServices.repository.ReservationRepository;
 import jakarta.transaction.Transactional;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Date;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api)")
+@RequestMapping("/api")
 public class FlightController {
 
   FlightRepository flightRepository;
@@ -27,8 +29,9 @@ public class FlightController {
   }
 
   @GetMapping("/flights")
-  public List<Flight> getFlights() {
-    return flightRepository.findAll();
+  public List<Flight> getFlights(@RequestParam String from, @RequestParam String to,
+                                 @RequestParam @DateTimeFormat(pattern = "MM-dd-yyyy") Date departureDate) {
+    return flightRepository.findFlights(from, to, departureDate);
   }
 
   @PostMapping("/flights")
