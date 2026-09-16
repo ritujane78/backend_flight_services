@@ -40,7 +40,7 @@ public class FlightController {
     return flightRepository.findById(id).orElseThrow(() -> new RuntimeException("Flight not found"));
   }
 
-  @PostMapping("/reservations")
+  @PostMapping("/confirmReservation")
   @Transactional
   public Reservation createFlight(@RequestBody CreateReservationRequest request) {
     Flight flight = flightRepository.findById(request.getFlightId()).orElseThrow(() -> new RuntimeException("Flight not found"));
