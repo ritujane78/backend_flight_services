@@ -15,6 +15,7 @@ import java.util.Date;
 import java.util.List;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/api")
 public class FlightController {
 
@@ -34,7 +35,12 @@ public class FlightController {
     return flightRepository.findFlights(from, to, departureDate);
   }
 
-  @PostMapping("/flights")
+  @GetMapping("/flights/{id}")
+  public Flight getFlight(@PathVariable Integer id) {
+    return flightRepository.findById(id).orElseThrow(() -> new RuntimeException("Flight not found"));
+  }
+
+  @PostMapping("/reservations")
   @Transactional
   public Reservation createFlight(@RequestBody CreateReservationRequest request) {
     Flight flight = flightRepository.findById(request.getFlightId()).orElseThrow(() -> new RuntimeException("Flight not found"));
